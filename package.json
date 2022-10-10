@@ -1,0 +1,26 @@
+{
+  "name": "raw-socket-monitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awa2/raw-socket-monitor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awa2/raw-socket-monitor/issues"
+  },
+  "homepage": "https://github.com/awa2/raw-socket-monitor#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "yarn": "^1.22.19"
+  },
+  "dependencies": {
+    "raw-socket": "^1.7.0"
+  }
+}

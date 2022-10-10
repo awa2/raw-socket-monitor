@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "",
+    "dev": "nodemon",
+    "clean": "rimraf dist",
+    "build": "tsc",
+    "type": "tsc --noEmit",
+    "start": "yarn build && node dist/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -17,6 +23,9 @@
   },
   "homepage": "https://github.com/awa2/raw-socket-monitor#readme",
   "devDependencies": {
+    "@types/node": "^18.8.3",
+    "nodemon": "^2.0.20",
+    "rimraf": "^3.0.2",
     "typescript": "^4.8.4",
     "yarn": "^1.22.19"
   },

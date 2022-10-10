@@ -1,0 +1,16 @@
+{
+  "watch": [
+    "src",
+    "../services/src",
+    "package.json",
+    "tsconfig.json",
+    "nodemon.json"
+  ],
+  "ext": "ts",
+  "ignore": [
+    "src/**/*.spec.ts",
+    "**/*.log"
+  ],
+  "delay": 1000,
+  "exec": "npm run clean && npm run build && NODE_ENV=development npm run start"
+}
